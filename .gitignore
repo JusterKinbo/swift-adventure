@@ -1,0 +1,11 @@
+ios/Pods
+node_modules
+ios/Podfile.lock
+build/
+local.properties
+.name
+.idea
+.vscode
+.DS_Store
+npm-debug.log
+package-lock.json

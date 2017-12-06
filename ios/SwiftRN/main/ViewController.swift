@@ -151,6 +151,11 @@ class ViewController: UIViewController{
                 objects:
                 [NSString(stringLiteral:"UIMenu弹出菜单"),NSString(stringLiteral:"UIMenuControllerVC")],
                 forKeys: [NSString(stringLiteral:"title"),NSString(stringLiteral:"class")]))
+        UIKit.add(
+            NSDictionary(
+                objects:
+                [NSString(stringLiteral:"Text ttf"),NSString(stringLiteral:"FontTTFViewController")],
+                forKeys: [NSString(stringLiteral:"title"),NSString(stringLiteral:"class")]))
         
         let Mix = NSMutableArray()
         Mix.add(

@@ -411,13 +411,13 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		DC6CDD021FC8231700F6282B /* Vision */ = {
+		DC6CDD021FC8231700F6282B /* Kits */ = {
 			isa = PBXGroup;
 			children = (
 				DC6CDD031FC8231700F6282B /* ScrollViewController.swift */,
 				DC6CDD041FC8231700F6282B /* VisionViewController.swift */,
 			);
-			path = Vision;
+			path = Kits;
 			sourceTree = "<group>";
 		};
 		DC6CDD071FC8231B00F6282B /* mlmodel */ = {
@@ -457,7 +457,7 @@
 				DC6CDC961FC81F5C00F6282B /* LocalAuthorization */,
 				DC6CDCA11FC820D700F6282B /* Programing 10 */,
 				DC6CDD071FC8231B00F6282B /* mlmodel */,
-				DC6CDD021FC8231700F6282B /* Vision */,
+				DC6CDD021FC8231700F6282B /* Kits */,
 				DC6CDCFF1FC8230500F6282B /* Utils */,
 				DC6CDCFA1FC822F300F6282B /* UIKit */,
 				DC6CDCF51FC822CB00F6282B /* Runtime */,

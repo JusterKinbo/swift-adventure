@@ -144,11 +144,6 @@ class ViewController: UIViewController{
         UIKit.add(
             NSDictionary(
                 objects:
-                [NSString(stringLiteral:"ScrollView+AL"),NSString(stringLiteral:"ScrollViewController")],
-                forKeys: [NSString(stringLiteral:"title"),NSString(stringLiteral:"class")]))
-        UIKit.add(
-            NSDictionary(
-                objects:
                 [NSString(stringLiteral:"UIMenu弹出菜单"),NSString(stringLiteral:"UIMenuControllerVC")],
                 forKeys: [NSString(stringLiteral:"title"),NSString(stringLiteral:"class")]))
         UIKit.add(

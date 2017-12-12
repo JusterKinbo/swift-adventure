@@ -13,7 +13,7 @@
 
 #import <UIKit/UIkit.h>
 
-#import "New2Swift4-Swift.h"
+#import "SwiftRN-Swift.h"
 
 @interface RNGradinentViewManager: RCTViewManager
 

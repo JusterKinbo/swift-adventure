@@ -59,6 +59,12 @@
 		DC7E443F1FC81D7D00601C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7E443D1FC81D7D00601C6C /* LaunchScreen.storyboard */; };
 		DC7E444A1FC81D7D00601C6C /* SwiftRNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44491FC81D7D00601C6C /* SwiftRNTests.swift */; };
 		DC7E44551FC81D7D00601C6C /* SwiftRNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E44541FC81D7D00601C6C /* SwiftRNUITests.swift */; };
+		DCA7DFF41FDFCB2500E13224 /* Native2RN.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DFEE1FDFCB2400E13224 /* Native2RN.swift */; };
+		DCA7DFF51FDFCB2500E13224 /* Native2RNEventEmitterBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DFEF1FDFCB2400E13224 /* Native2RNEventEmitterBridge.m */; };
+		DCA7DFF61FDFCB2500E13224 /* Native2RNEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DFF01FDFCB2400E13224 /* Native2RNEventEmitter.swift */; };
+		DCA7DFF71FDFCB2500E13224 /* Native2RNBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DFF11FDFCB2500E13224 /* Native2RNBridge.m */; };
+		DCA7DFF81FDFCB2500E13224 /* RNGradinentViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DFF21FDFCB2500E13224 /* RNGradinentViewManager.m */; };
+		DCA7DFF91FDFCB2500E13224 /* RNGradinetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7DFF31FDFCB2500E13224 /* RNGradinetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +156,12 @@
 		DC7E44501FC81D7D00601C6C /* SwiftRNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7E44541FC81D7D00601C6C /* SwiftRNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRNUITests.swift; sourceTree = "<group>"; };
 		DC7E44561FC81D7D00601C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA7DFEE1FDFCB2400E13224 /* Native2RN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Native2RN.swift; path = Native2JS/Native2RN.swift; sourceTree = "<group>"; };
+		DCA7DFEF1FDFCB2400E13224 /* Native2RNEventEmitterBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Native2RNEventEmitterBridge.m; path = Native2JS/Native2RNEventEmitterBridge.m; sourceTree = "<group>"; };
+		DCA7DFF01FDFCB2400E13224 /* Native2RNEventEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Native2RNEventEmitter.swift; path = Native2JS/Native2RNEventEmitter.swift; sourceTree = "<group>"; };
+		DCA7DFF11FDFCB2500E13224 /* Native2RNBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Native2RNBridge.m; path = Native2JS/Native2RNBridge.m; sourceTree = "<group>"; };
+		DCA7DFF21FDFCB2500E13224 /* RNGradinentViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNGradinentViewManager.m; path = Native2JS/RNGradinentViewManager.m; sourceTree = "<group>"; };
+		DCA7DFF31FDFCB2500E13224 /* RNGradinetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNGradinetView.swift; path = Native2JS/RNGradinetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -453,6 +465,7 @@
 		DC7E44331FC81D7D00601C6C /* SwiftRN */ = {
 			isa = PBXGroup;
 			children = (
+				DCA7DFED1FDFCB1300E13224 /* Naivie2JS */,
 				DC6CDC951FC81EFD00F6282B /* main */,
 				DC6CDC961FC81F5C00F6282B /* LocalAuthorization */,
 				DC6CDCA11FC820D700F6282B /* Programing 10 */,
@@ -487,6 +500,19 @@
 				DC7E44561FC81D7D00601C6C /* Info.plist */,
 			);
 			path = SwiftRNUITests;
+			sourceTree = "<group>";
+		};
+		DCA7DFED1FDFCB1300E13224 /* Naivie2JS */ = {
+			isa = PBXGroup;
+			children = (
+				DCA7DFEE1FDFCB2400E13224 /* Native2RN.swift */,
+				DCA7DFF11FDFCB2500E13224 /* Native2RNBridge.m */,
+				DCA7DFF01FDFCB2400E13224 /* Native2RNEventEmitter.swift */,
+				DCA7DFEF1FDFCB2400E13224 /* Native2RNEventEmitterBridge.m */,
+				DCA7DFF21FDFCB2500E13224 /* RNGradinentViewManager.m */,
+				DCA7DFF31FDFCB2500E13224 /* RNGradinetView.swift */,
+			);
+			name = Naivie2JS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -780,6 +806,7 @@
 			files = (
 				DC6CDCC21FC8225500F6282B /* CClassWithHeader.c in Sources */,
 				DC6CDCB91FC8222C00F6282B /* InterviewsViewController.swift in Sources */,
+				DCA7DFF51FDFCB2500E13224 /* Native2RNEventEmitterBridge.m in Sources */,
 				DC6CDCA91FC820D700F6282B /* MyTableViewCell.swift in Sources */,
 				DC6CDCB81FC8222C00F6282B /* BaiduInterviewViewController.swift in Sources */,
 				DC6CDCB21FC8221200F6282B /* RadialGradientViewController.swift in Sources */,
@@ -790,6 +817,7 @@
 				DC7E44371FC81D7D00601C6C /* ViewController.swift in Sources */,
 				DC6CDCA81FC820D700F6282B /* MyMenuCell.swift in Sources */,
 				DC6CDCE31FC8228100F6282B /* NIPJSONHttpResponse.swift in Sources */,
+				DCA7DFF81FDFCB2500E13224 /* RNGradinentViewManager.m in Sources */,
 				DC6CDCFE1FC822F300F6282B /* UIMenuControllerVC.swift in Sources */,
 				DC6CDCEA1FC8228100F6282B /* DESEncryptor.m in Sources */,
 				DC6CDCB11FC8221200F6282B /* RadialGradientLayer.swift in Sources */,
@@ -800,6 +828,7 @@
 				DC6CDCE61FC8228100F6282B /* NIPHttpRequesetService.swift in Sources */,
 				DC6CDCDF1FC8228100F6282B /* NSString+NIPBasicAdditions.swift in Sources */,
 				DC6CDCAB1FC820D700F6282B /* SearchResultsController.swift in Sources */,
+				DCA7DFF91FDFCB2500E13224 /* RNGradinetView.swift in Sources */,
 				DC6CDCE51FC8228100F6282B /* NIPBaseRequest.swift in Sources */,
 				DC6CDD061FC8231700F6282B /* VisionViewController.swift in Sources */,
 				DC6CDCE01FC8228100F6282B /* UIDevice+NIPBasicAdditions.swift in Sources */,
@@ -808,15 +837,18 @@
 				DC6CDCF41FC822BB00F6282B /* RunloopViewController.swift in Sources */,
 				DC6CDD051FC8231700F6282B /* ScrollViewController.swift in Sources */,
 				DC6CDCE81FC8228100F6282B /* NSIP_NetWorkViewController.swift in Sources */,
+				DCA7DFF61FDFCB2500E13224 /* Native2RNEventEmitter.swift in Sources */,
 				DC6CDCC41FC8225500F6282B /* MixSwitWithOCVC.swift in Sources */,
 				DC6CDCC51FC8225500F6282B /* OCClass.m in Sources */,
 				DC4AED8D1FD7FCEC00892DC4 /* FontTTFViewController.swift in Sources */,
 				DC6CDCAA1FC820D700F6282B /* MyTableViewNibCell.swift in Sources */,
 				DC6CDCE41FC8228100F6282B /* NIPModelHttpResponse.swift in Sources */,
+				DCA7DFF41FDFCB2500E13224 /* Native2RN.swift in Sources */,
 				DC6CDCFD1FC822F300F6282B /* MJRefreshTableViewViewController.swift in Sources */,
 				DC6CDCC31FC8225500F6282B /* CClassWithoutHeader.c in Sources */,
 				DC6CDCC81FC8226500F6282B /* MobileNet.mlmodel in Sources */,
 				DC6CDC9B1FC81F5C00F6282B /* KeyBoradManagerVC.swift in Sources */,
+				DCA7DFF71FDFCB2500E13224 /* Native2RNBridge.m in Sources */,
 				DC6CDC9C1FC81F5C00F6282B /* NotificationSettingManagerVC.swift in Sources */,
 				DC6CDCF11FC822A500F6282B /* RNViewController.swift in Sources */,
 				DC6CDCB31FC8221200F6282B /* RadialView.swift in Sources */,

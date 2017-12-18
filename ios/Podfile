@@ -4,9 +4,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-xcodeproj 'SwiftGitTest.xcodeproj'
 
-target 'SwiftGitTest' do
+target 'SwiftRN’ do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 	pod 'Alamofire','>=4.0'
@@ -33,12 +32,12 @@ target 'SwiftGitTest' do
   pod "Yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
 
 
-  target 'SwiftGitTestTests' do
+  target 'SwiftRNTests’ do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'SwiftGitTestUITests' do
+  target 'SwiftRNUITests’ do
     inherit! :search_paths
     # Pods for testing
   end

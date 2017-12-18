@@ -1,15 +1,15 @@
 //
-//  SwiftRNTests.swift
-//  SwiftRNTests
+//  SwiftGitTestTests.swift
+//  SwiftGitTestTests
 //
-//  Created by bjjiachunhui on 2017/11/24.
+//  Created by bjjiachunhui on 2017/12/18.
 //  Copyright © 2017年 bjjiachunhui. All rights reserved.
 //
 
 import XCTest
-@testable import SwiftRN
+@testable import SwiftGitTest
 
-class SwiftRNTests: XCTestCase {
+class SwiftGitTestTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

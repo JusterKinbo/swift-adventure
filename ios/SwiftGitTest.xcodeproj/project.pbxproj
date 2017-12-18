@@ -7,160 +7,167 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		372DA7E2CE18FBE6E9BE2DD9 /* Pods_SwiftGitTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180337DCA83A99BE40F1CFB9 /* Pods_SwiftGitTestUITests.framework */; };
-		70A51EFEAC1D97365D61B67F /* Pods_SwiftGitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1688B84AD47736E6544A7 /* Pods_SwiftGitTest.framework */; };
-		D185D6A5A7BB665A8672E7AD /* Pods_SwiftGitTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4064472F0045CE908E5334 /* Pods_SwiftGitTestTests.framework */; };
-		DCE3C8F91FE7B73D006F771D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C8F81FE7B73D006F771D /* AppDelegate.swift */; };
-		DCE3C8FB1FE7B73D006F771D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C8FA1FE7B73D006F771D /* ViewController.swift */; };
-		DCE3C8FE1FE7B73D006F771D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C8FC1FE7B73D006F771D /* Main.storyboard */; };
-		DCE3C9001FE7B73D006F771D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C8FF1FE7B73D006F771D /* Assets.xcassets */; };
-		DCE3C9031FE7B73D006F771D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C9011FE7B73D006F771D /* LaunchScreen.storyboard */; };
-		DCE3C90E1FE7B73D006F771D /* SwiftGitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C90D1FE7B73D006F771D /* SwiftGitTestTests.swift */; };
-		DCE3C9191FE7B73D006F771D /* SwiftGitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C9181FE7B73D006F771D /* SwiftGitTestUITests.swift */; };
+		3397FE0E5BA6D35A6622DF92 /* Pods_SwiftGitTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F789C6B9F69A1E655863F8 /* Pods_SwiftGitTestUITests.framework */; };
+		687D503AB17C5311E1263DA3 /* Pods_SwiftGitTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53DD5322321F2767F209BDD /* Pods_SwiftGitTestTests.framework */; };
+		BAFE55BF0C071C7F963D8084 /* Pods_SwiftGitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C067B09F3EF4940AB978716 /* Pods_SwiftGitTest.framework */; };
+		DCE3C9341FE7C615006F771D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C9331FE7C615006F771D /* AppDelegate.m */; };
+		DCE3C9371FE7C615006F771D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C9361FE7C615006F771D /* ViewController.m */; };
+		DCE3C93A1FE7C615006F771D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C9381FE7C615006F771D /* Main.storyboard */; };
+		DCE3C93C1FE7C615006F771D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C93B1FE7C615006F771D /* Assets.xcassets */; };
+		DCE3C93F1FE7C615006F771D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C93D1FE7C615006F771D /* LaunchScreen.storyboard */; };
+		DCE3C9421FE7C615006F771D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C9411FE7C615006F771D /* main.m */; };
+		DCE3C94C1FE7C615006F771D /* SwiftGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C94B1FE7C615006F771D /* SwiftGitTestTests.m */; };
+		DCE3C9571FE7C615006F771D /* SwiftGitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C9561FE7C615006F771D /* SwiftGitTestUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DCE3C90A1FE7B73D006F771D /* PBXContainerItemProxy */ = {
+		DCE3C9481FE7C615006F771D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DCE3C8ED1FE7B73C006F771D /* Project object */;
+			containerPortal = DCE3C9271FE7C615006F771D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCE3C8F41FE7B73C006F771D;
+			remoteGlobalIDString = DCE3C92E1FE7C615006F771D;
 			remoteInfo = SwiftGitTest;
 		};
-		DCE3C9151FE7B73D006F771D /* PBXContainerItemProxy */ = {
+		DCE3C9531FE7C615006F771D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DCE3C8ED1FE7B73C006F771D /* Project object */;
+			containerPortal = DCE3C9271FE7C615006F771D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCE3C8F41FE7B73C006F771D;
+			remoteGlobalIDString = DCE3C92E1FE7C615006F771D;
 			remoteInfo = SwiftGitTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		180337DCA83A99BE40F1CFB9 /* Pods_SwiftGitTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGitTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ECA34D7FEC8758210545890 /* Pods-SwiftGitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4587E459CD2949E58FF98BF0 /* Pods-SwiftGitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTest/Pods-SwiftGitTest.debug.xcconfig"; sourceTree = "<group>"; };
-		5C4064472F0045CE908E5334 /* Pods_SwiftGitTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGitTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		877AB736EDB11AFA788FD677 /* Pods-SwiftGitTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		93EB7857CAA22552DB5A92FE /* Pods-SwiftGitTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestUITests/Pods-SwiftGitTestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AB7C3DC9C6DD775833F37DD5 /* Pods-SwiftGitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTest/Pods-SwiftGitTest.release.xcconfig"; sourceTree = "<group>"; };
-		BB8DBEFD02295E686AE37730 /* Pods-SwiftGitTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestUITests/Pods-SwiftGitTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5A1688B84AD47736E6544A7 /* Pods_SwiftGitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCE3C8F51FE7B73D006F771D /* SwiftGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCE3C8F81FE7B73D006F771D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCE3C8FA1FE7B73D006F771D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCE3C8FD1FE7B73D006F771D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCE3C8FF1FE7B73D006F771D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCE3C9021FE7B73D006F771D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCE3C9041FE7B73D006F771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCE3C9091FE7B73D006F771D /* SwiftGitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCE3C90D1FE7B73D006F771D /* SwiftGitTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGitTestTests.swift; sourceTree = "<group>"; };
-		DCE3C90F1FE7B73D006F771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCE3C9141FE7B73D006F771D /* SwiftGitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCE3C9181FE7B73D006F771D /* SwiftGitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGitTestUITests.swift; sourceTree = "<group>"; };
-		DCE3C91A1FE7B73D006F771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153EC676ED39E926376C3162 /* Pods-SwiftGitTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestUITests/Pods-SwiftGitTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C47F86483C0D4E175DF2213 /* Pods-SwiftGitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52AF97F851D8203DD79E77EF /* Pods-SwiftGitTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C067B09F3EF4940AB978716 /* Pods_SwiftGitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F789C6B9F69A1E655863F8 /* Pods_SwiftGitTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGitTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B7A08436F4FE68ACBD4E56 /* Pods-SwiftGitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTest/Pods-SwiftGitTest.release.xcconfig"; sourceTree = "<group>"; };
+		9BBFBAB19A7A0A54AC47560F /* Pods-SwiftGitTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTestUITests/Pods-SwiftGitTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C53DD5322321F2767F209BDD /* Pods_SwiftGitTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGitTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE3C92F1FE7C615006F771D /* SwiftGitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE3C9321FE7C615006F771D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCE3C9331FE7C615006F771D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCE3C9351FE7C615006F771D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCE3C9361FE7C615006F771D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCE3C9391FE7C615006F771D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE3C93B1FE7C615006F771D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE3C93E1FE7C615006F771D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE3C9401FE7C615006F771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE3C9411FE7C615006F771D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCE3C9471FE7C615006F771D /* SwiftGitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE3C94B1FE7C615006F771D /* SwiftGitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftGitTestTests.m; sourceTree = "<group>"; };
+		DCE3C94D1FE7C615006F771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE3C9521FE7C615006F771D /* SwiftGitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE3C9561FE7C615006F771D /* SwiftGitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftGitTestUITests.m; sourceTree = "<group>"; };
+		DCE3C9581FE7C615006F771D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF86AEF331AF60803AF96408 /* Pods-SwiftGitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGitTest/Pods-SwiftGitTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DCE3C8F21FE7B73C006F771D /* Frameworks */ = {
+		DCE3C92C1FE7C615006F771D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A51EFEAC1D97365D61B67F /* Pods_SwiftGitTest.framework in Frameworks */,
+				BAFE55BF0C071C7F963D8084 /* Pods_SwiftGitTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE3C9061FE7B73D006F771D /* Frameworks */ = {
+		DCE3C9441FE7C615006F771D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D185D6A5A7BB665A8672E7AD /* Pods_SwiftGitTestTests.framework in Frameworks */,
+				687D503AB17C5311E1263DA3 /* Pods_SwiftGitTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE3C9111FE7B73D006F771D /* Frameworks */ = {
+		DCE3C94F1FE7C615006F771D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372DA7E2CE18FBE6E9BE2DD9 /* Pods_SwiftGitTestUITests.framework in Frameworks */,
+				3397FE0E5BA6D35A6622DF92 /* Pods_SwiftGitTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		157C03B34FFB4FB41431063B /* Pods */ = {
+		9D283E967D7BAE1726FC7ABA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4587E459CD2949E58FF98BF0 /* Pods-SwiftGitTest.debug.xcconfig */,
-				AB7C3DC9C6DD775833F37DD5 /* Pods-SwiftGitTest.release.xcconfig */,
-				2ECA34D7FEC8758210545890 /* Pods-SwiftGitTestTests.debug.xcconfig */,
-				877AB736EDB11AFA788FD677 /* Pods-SwiftGitTestTests.release.xcconfig */,
-				BB8DBEFD02295E686AE37730 /* Pods-SwiftGitTestUITests.debug.xcconfig */,
-				93EB7857CAA22552DB5A92FE /* Pods-SwiftGitTestUITests.release.xcconfig */,
+				EF86AEF331AF60803AF96408 /* Pods-SwiftGitTest.debug.xcconfig */,
+				98B7A08436F4FE68ACBD4E56 /* Pods-SwiftGitTest.release.xcconfig */,
+				2C47F86483C0D4E175DF2213 /* Pods-SwiftGitTestTests.debug.xcconfig */,
+				52AF97F851D8203DD79E77EF /* Pods-SwiftGitTestTests.release.xcconfig */,
+				9BBFBAB19A7A0A54AC47560F /* Pods-SwiftGitTestUITests.debug.xcconfig */,
+				153EC676ED39E926376C3162 /* Pods-SwiftGitTestUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DCE3C8EC1FE7B73C006F771D = {
+		DCE3C9261FE7C615006F771D = {
 			isa = PBXGroup;
 			children = (
-				DCE3C8F71FE7B73D006F771D /* SwiftGitTest */,
-				DCE3C90C1FE7B73D006F771D /* SwiftGitTestTests */,
-				DCE3C9171FE7B73D006F771D /* SwiftGitTestUITests */,
-				DCE3C8F61FE7B73D006F771D /* Products */,
-				157C03B34FFB4FB41431063B /* Pods */,
-				E99D662DE3EE64BE8A84595F /* Frameworks */,
+				DCE3C9311FE7C615006F771D /* SwiftGitTest */,
+				DCE3C94A1FE7C615006F771D /* SwiftGitTestTests */,
+				DCE3C9551FE7C615006F771D /* SwiftGitTestUITests */,
+				DCE3C9301FE7C615006F771D /* Products */,
+				9D283E967D7BAE1726FC7ABA /* Pods */,
+				F332D3F381BED726AE6BF070 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DCE3C8F61FE7B73D006F771D /* Products */ = {
+		DCE3C9301FE7C615006F771D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCE3C8F51FE7B73D006F771D /* SwiftGitTest.app */,
-				DCE3C9091FE7B73D006F771D /* SwiftGitTestTests.xctest */,
-				DCE3C9141FE7B73D006F771D /* SwiftGitTestUITests.xctest */,
+				DCE3C92F1FE7C615006F771D /* SwiftGitTest.app */,
+				DCE3C9471FE7C615006F771D /* SwiftGitTestTests.xctest */,
+				DCE3C9521FE7C615006F771D /* SwiftGitTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCE3C8F71FE7B73D006F771D /* SwiftGitTest */ = {
+		DCE3C9311FE7C615006F771D /* SwiftGitTest */ = {
 			isa = PBXGroup;
 			children = (
-				DCE3C8F81FE7B73D006F771D /* AppDelegate.swift */,
-				DCE3C8FA1FE7B73D006F771D /* ViewController.swift */,
-				DCE3C8FC1FE7B73D006F771D /* Main.storyboard */,
-				DCE3C8FF1FE7B73D006F771D /* Assets.xcassets */,
-				DCE3C9011FE7B73D006F771D /* LaunchScreen.storyboard */,
-				DCE3C9041FE7B73D006F771D /* Info.plist */,
+				DCE3C9321FE7C615006F771D /* AppDelegate.h */,
+				DCE3C9331FE7C615006F771D /* AppDelegate.m */,
+				DCE3C9351FE7C615006F771D /* ViewController.h */,
+				DCE3C9361FE7C615006F771D /* ViewController.m */,
+				DCE3C9381FE7C615006F771D /* Main.storyboard */,
+				DCE3C93B1FE7C615006F771D /* Assets.xcassets */,
+				DCE3C93D1FE7C615006F771D /* LaunchScreen.storyboard */,
+				DCE3C9401FE7C615006F771D /* Info.plist */,
+				DCE3C9411FE7C615006F771D /* main.m */,
 			);
 			path = SwiftGitTest;
 			sourceTree = "<group>";
 		};
-		DCE3C90C1FE7B73D006F771D /* SwiftGitTestTests */ = {
+		DCE3C94A1FE7C615006F771D /* SwiftGitTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				DCE3C90D1FE7B73D006F771D /* SwiftGitTestTests.swift */,
-				DCE3C90F1FE7B73D006F771D /* Info.plist */,
+				DCE3C94B1FE7C615006F771D /* SwiftGitTestTests.m */,
+				DCE3C94D1FE7C615006F771D /* Info.plist */,
 			);
 			path = SwiftGitTestTests;
 			sourceTree = "<group>";
 		};
-		DCE3C9171FE7B73D006F771D /* SwiftGitTestUITests */ = {
+		DCE3C9551FE7C615006F771D /* SwiftGitTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DCE3C9181FE7B73D006F771D /* SwiftGitTestUITests.swift */,
-				DCE3C91A1FE7B73D006F771D /* Info.plist */,
+				DCE3C9561FE7C615006F771D /* SwiftGitTestUITests.m */,
+				DCE3C9581FE7C615006F771D /* Info.plist */,
 			);
 			path = SwiftGitTestUITests;
 			sourceTree = "<group>";
 		};
-		E99D662DE3EE64BE8A84595F /* Frameworks */ = {
+		F332D3F381BED726AE6BF070 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5A1688B84AD47736E6544A7 /* Pods_SwiftGitTest.framework */,
-				5C4064472F0045CE908E5334 /* Pods_SwiftGitTestTests.framework */,
-				180337DCA83A99BE40F1CFB9 /* Pods_SwiftGitTestUITests.framework */,
+				5C067B09F3EF4940AB978716 /* Pods_SwiftGitTest.framework */,
+				C53DD5322321F2767F209BDD /* Pods_SwiftGitTestTests.framework */,
+				66F789C6B9F69A1E655863F8 /* Pods_SwiftGitTestUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,16 +175,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCE3C8F41FE7B73C006F771D /* SwiftGitTest */ = {
+		DCE3C92E1FE7C615006F771D /* SwiftGitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCE3C91D1FE7B73D006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTest" */;
+			buildConfigurationList = DCE3C95B1FE7C615006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTest" */;
 			buildPhases = (
-				4D17052531069D3FD8CCB235 /* [CP] Check Pods Manifest.lock */,
-				DCE3C8F11FE7B73C006F771D /* Sources */,
-				DCE3C8F21FE7B73C006F771D /* Frameworks */,
-				DCE3C8F31FE7B73C006F771D /* Resources */,
-				203E0F9237532ADFF73E478C /* [CP] Embed Pods Frameworks */,
-				6F71F45259E65CE3F2AE5B57 /* [CP] Copy Pods Resources */,
+				A629B69D935DC563912C4428 /* [CP] Check Pods Manifest.lock */,
+				DCE3C92B1FE7C615006F771D /* Sources */,
+				DCE3C92C1FE7C615006F771D /* Frameworks */,
+				DCE3C92D1FE7C615006F771D /* Resources */,
+				6FA39D648FAE02D93C78ED27 /* [CP] Embed Pods Frameworks */,
+				1CA0D7B6987E4B3FD15B3C42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,78 +192,77 @@
 			);
 			name = SwiftGitTest;
 			productName = SwiftGitTest;
-			productReference = DCE3C8F51FE7B73D006F771D /* SwiftGitTest.app */;
+			productReference = DCE3C92F1FE7C615006F771D /* SwiftGitTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCE3C9081FE7B73D006F771D /* SwiftGitTestTests */ = {
+		DCE3C9461FE7C615006F771D /* SwiftGitTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCE3C9201FE7B73D006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestTests" */;
+			buildConfigurationList = DCE3C95E1FE7C615006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestTests" */;
 			buildPhases = (
-				AA38BF56BB09838851F6FEFE /* [CP] Check Pods Manifest.lock */,
-				DCE3C9051FE7B73D006F771D /* Sources */,
-				DCE3C9061FE7B73D006F771D /* Frameworks */,
-				DCE3C9071FE7B73D006F771D /* Resources */,
-				7BC121CB3A63215676191D47 /* [CP] Embed Pods Frameworks */,
-				4172D5F548B60BE887E09B51 /* [CP] Copy Pods Resources */,
+				EBD1DEACD9FA355A81DFDCD9 /* [CP] Check Pods Manifest.lock */,
+				DCE3C9431FE7C615006F771D /* Sources */,
+				DCE3C9441FE7C615006F771D /* Frameworks */,
+				DCE3C9451FE7C615006F771D /* Resources */,
+				FD9876262D9488291187920B /* [CP] Embed Pods Frameworks */,
+				CE08C0A20B5C1D955979DD13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DCE3C90B1FE7B73D006F771D /* PBXTargetDependency */,
+				DCE3C9491FE7C615006F771D /* PBXTargetDependency */,
 			);
 			name = SwiftGitTestTests;
 			productName = SwiftGitTestTests;
-			productReference = DCE3C9091FE7B73D006F771D /* SwiftGitTestTests.xctest */;
+			productReference = DCE3C9471FE7C615006F771D /* SwiftGitTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DCE3C9131FE7B73D006F771D /* SwiftGitTestUITests */ = {
+		DCE3C9511FE7C615006F771D /* SwiftGitTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCE3C9231FE7B73D006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestUITests" */;
+			buildConfigurationList = DCE3C9611FE7C615006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestUITests" */;
 			buildPhases = (
-				47AF9681F926D0E3F281FFE4 /* [CP] Check Pods Manifest.lock */,
-				DCE3C9101FE7B73D006F771D /* Sources */,
-				DCE3C9111FE7B73D006F771D /* Frameworks */,
-				DCE3C9121FE7B73D006F771D /* Resources */,
-				BC0A5840D114C4A92194B837 /* [CP] Embed Pods Frameworks */,
-				B4A2830B2D07C6843C64B551 /* [CP] Copy Pods Resources */,
+				5AAB84F42BD7A89C242630EA /* [CP] Check Pods Manifest.lock */,
+				DCE3C94E1FE7C615006F771D /* Sources */,
+				DCE3C94F1FE7C615006F771D /* Frameworks */,
+				DCE3C9501FE7C615006F771D /* Resources */,
+				9B44F5040D1972335BA1D58A /* [CP] Embed Pods Frameworks */,
+				86C9DF4C31BBA140B19AC60D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DCE3C9161FE7B73D006F771D /* PBXTargetDependency */,
+				DCE3C9541FE7C615006F771D /* PBXTargetDependency */,
 			);
 			name = SwiftGitTestUITests;
 			productName = SwiftGitTestUITests;
-			productReference = DCE3C9141FE7B73D006F771D /* SwiftGitTestUITests.xctest */;
+			productReference = DCE3C9521FE7C615006F771D /* SwiftGitTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DCE3C8ED1FE7B73C006F771D /* Project object */ = {
+		DCE3C9271FE7C615006F771D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = bjjiachunhui;
 				TargetAttributes = {
-					DCE3C8F41FE7B73C006F771D = {
+					DCE3C92E1FE7C615006F771D = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					DCE3C9081FE7B73D006F771D = {
+					DCE3C9461FE7C615006F771D = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DCE3C8F41FE7B73C006F771D;
+						TestTargetID = DCE3C92E1FE7C615006F771D;
 					};
-					DCE3C9131FE7B73D006F771D = {
+					DCE3C9511FE7C615006F771D = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DCE3C8F41FE7B73C006F771D;
+						TestTargetID = DCE3C92E1FE7C615006F771D;
 					};
 				};
 			};
-			buildConfigurationList = DCE3C8F01FE7B73C006F771D /* Build configuration list for PBXProject "SwiftGitTest" */;
+			buildConfigurationList = DCE3C92A1FE7C615006F771D /* Build configuration list for PBXProject "SwiftGitTest" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -264,37 +270,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DCE3C8EC1FE7B73C006F771D;
-			productRefGroup = DCE3C8F61FE7B73D006F771D /* Products */;
+			mainGroup = DCE3C9261FE7C615006F771D;
+			productRefGroup = DCE3C9301FE7C615006F771D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCE3C8F41FE7B73C006F771D /* SwiftGitTest */,
-				DCE3C9081FE7B73D006F771D /* SwiftGitTestTests */,
-				DCE3C9131FE7B73D006F771D /* SwiftGitTestUITests */,
+				DCE3C92E1FE7C615006F771D /* SwiftGitTest */,
+				DCE3C9461FE7C615006F771D /* SwiftGitTestTests */,
+				DCE3C9511FE7C615006F771D /* SwiftGitTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DCE3C8F31FE7B73C006F771D /* Resources */ = {
+		DCE3C92D1FE7C615006F771D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE3C9031FE7B73D006F771D /* LaunchScreen.storyboard in Resources */,
-				DCE3C9001FE7B73D006F771D /* Assets.xcassets in Resources */,
-				DCE3C8FE1FE7B73D006F771D /* Main.storyboard in Resources */,
+				DCE3C93F1FE7C615006F771D /* LaunchScreen.storyboard in Resources */,
+				DCE3C93C1FE7C615006F771D /* Assets.xcassets in Resources */,
+				DCE3C93A1FE7C615006F771D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE3C9071FE7B73D006F771D /* Resources */ = {
+		DCE3C9451FE7C615006F771D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE3C9121FE7B73D006F771D /* Resources */ = {
+		DCE3C9501FE7C615006F771D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,67 +310,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		203E0F9237532ADFF73E478C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTest/Pods-SwiftGitTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4172D5F548B60BE887E09B51 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		47AF9681F926D0E3F281FFE4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4D17052531069D3FD8CCB235 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6F71F45259E65CE3F2AE5B57 /* [CP] Copy Pods Resources */ = {
+		1CA0D7B6987E4B3FD15B3C42 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,22 +325,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTest/Pods-SwiftGitTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7BC121CB3A63215676191D47 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA38BF56BB09838851F6FEFE /* [CP] Check Pods Manifest.lock */ = {
+		5AAB84F42BD7A89C242630EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,7 +340,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B4A2830B2D07C6843C64B551 /* [CP] Copy Pods Resources */ = {
+		6FA39D648FAE02D93C78ED27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTest/Pods-SwiftGitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86C9DF4C31BBA140B19AC60D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,7 +370,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTestUITests/Pods-SwiftGitTestUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC0A5840D114C4A92194B837 /* [CP] Embed Pods Frameworks */ = {
+		9B44F5040D1972335BA1D58A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,62 +385,123 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTestUITests/Pods-SwiftGitTestUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A629B69D935DC563912C4428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE08C0A20B5C1D955979DD13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD1DEACD9FA355A81DFDCD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9876262D9488291187920B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGitTestTests/Pods-SwiftGitTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DCE3C8F11FE7B73C006F771D /* Sources */ = {
+		DCE3C92B1FE7C615006F771D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE3C8FB1FE7B73D006F771D /* ViewController.swift in Sources */,
-				DCE3C8F91FE7B73D006F771D /* AppDelegate.swift in Sources */,
+				DCE3C9371FE7C615006F771D /* ViewController.m in Sources */,
+				DCE3C9421FE7C615006F771D /* main.m in Sources */,
+				DCE3C9341FE7C615006F771D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE3C9051FE7B73D006F771D /* Sources */ = {
+		DCE3C9431FE7C615006F771D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE3C90E1FE7B73D006F771D /* SwiftGitTestTests.swift in Sources */,
+				DCE3C94C1FE7C615006F771D /* SwiftGitTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE3C9101FE7B73D006F771D /* Sources */ = {
+		DCE3C94E1FE7C615006F771D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE3C9191FE7B73D006F771D /* SwiftGitTestUITests.swift in Sources */,
+				DCE3C9571FE7C615006F771D /* SwiftGitTestUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DCE3C90B1FE7B73D006F771D /* PBXTargetDependency */ = {
+		DCE3C9491FE7C615006F771D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCE3C8F41FE7B73C006F771D /* SwiftGitTest */;
-			targetProxy = DCE3C90A1FE7B73D006F771D /* PBXContainerItemProxy */;
+			target = DCE3C92E1FE7C615006F771D /* SwiftGitTest */;
+			targetProxy = DCE3C9481FE7C615006F771D /* PBXContainerItemProxy */;
 		};
-		DCE3C9161FE7B73D006F771D /* PBXTargetDependency */ = {
+		DCE3C9541FE7C615006F771D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCE3C8F41FE7B73C006F771D /* SwiftGitTest */;
-			targetProxy = DCE3C9151FE7B73D006F771D /* PBXContainerItemProxy */;
+			target = DCE3C92E1FE7C615006F771D /* SwiftGitTest */;
+			targetProxy = DCE3C9531FE7C615006F771D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DCE3C8FC1FE7B73D006F771D /* Main.storyboard */ = {
+		DCE3C9381FE7C615006F771D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCE3C8FD1FE7B73D006F771D /* Base */,
+				DCE3C9391FE7C615006F771D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DCE3C9011FE7B73D006F771D /* LaunchScreen.storyboard */ = {
+		DCE3C93D1FE7C615006F771D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCE3C9021FE7B73D006F771D /* Base */,
+				DCE3C93E1FE7C615006F771D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -502,7 +509,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DCE3C91B1FE7B73D006F771D /* Debug */ = {
+		DCE3C9591FE7C615006F771D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,12 +561,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		DCE3C91C1FE7B73D006F771D /* Release */ = {
+		DCE3C95A1FE7C615006F771D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -604,14 +609,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DCE3C91E1FE7B73D006F771D /* Debug */ = {
+		DCE3C95C1FE7C615006F771D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4587E459CD2949E58FF98BF0 /* Pods-SwiftGitTest.debug.xcconfig */;
+			baseConfigurationReference = EF86AEF331AF60803AF96408 /* Pods-SwiftGitTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -620,14 +624,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.demo.SwiftGitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DCE3C91F1FE7B73D006F771D /* Release */ = {
+		DCE3C95D1FE7C615006F771D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB7C3DC9C6DD775833F37DD5 /* Pods-SwiftGitTest.release.xcconfig */;
+			baseConfigurationReference = 98B7A08436F4FE68ACBD4E56 /* Pods-SwiftGitTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -636,16 +639,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.demo.SwiftGitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DCE3C9211FE7B73D006F771D /* Debug */ = {
+		DCE3C95F1FE7C615006F771D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECA34D7FEC8758210545890 /* Pods-SwiftGitTestTests.debug.xcconfig */;
+			baseConfigurationReference = 2C47F86483C0D4E175DF2213 /* Pods-SwiftGitTestTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GCZ6V5R7Z;
@@ -653,17 +654,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.demo.SwiftGitTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGitTest.app/SwiftGitTest";
 			};
 			name = Debug;
 		};
-		DCE3C9221FE7B73D006F771D /* Release */ = {
+		DCE3C9601FE7C615006F771D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 877AB736EDB11AFA788FD677 /* Pods-SwiftGitTestTests.release.xcconfig */;
+			baseConfigurationReference = 52AF97F851D8203DD79E77EF /* Pods-SwiftGitTestTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GCZ6V5R7Z;
@@ -671,41 +670,36 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.demo.SwiftGitTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGitTest.app/SwiftGitTest";
 			};
 			name = Release;
 		};
-		DCE3C9241FE7B73D006F771D /* Debug */ = {
+		DCE3C9621FE7C615006F771D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB8DBEFD02295E686AE37730 /* Pods-SwiftGitTestUITests.debug.xcconfig */;
+			baseConfigurationReference = 9BBFBAB19A7A0A54AC47560F /* Pods-SwiftGitTestUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GCZ6V5R7Z;
 				INFOPLIST_FILE = SwiftGitTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.demo.SwiftGitTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftGitTest;
 			};
 			name = Debug;
 		};
-		DCE3C9251FE7B73D006F771D /* Release */ = {
+		DCE3C9631FE7C615006F771D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EB7857CAA22552DB5A92FE /* Pods-SwiftGitTestUITests.release.xcconfig */;
+			baseConfigurationReference = 153EC676ED39E926376C3162 /* Pods-SwiftGitTestUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GCZ6V5R7Z;
 				INFOPLIST_FILE = SwiftGitTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.demo.SwiftGitTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftGitTest;
 			};
@@ -714,43 +708,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCE3C8F01FE7B73C006F771D /* Build configuration list for PBXProject "SwiftGitTest" */ = {
+		DCE3C92A1FE7C615006F771D /* Build configuration list for PBXProject "SwiftGitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCE3C91B1FE7B73D006F771D /* Debug */,
-				DCE3C91C1FE7B73D006F771D /* Release */,
+				DCE3C9591FE7C615006F771D /* Debug */,
+				DCE3C95A1FE7C615006F771D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCE3C91D1FE7B73D006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTest" */ = {
+		DCE3C95B1FE7C615006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCE3C91E1FE7B73D006F771D /* Debug */,
-				DCE3C91F1FE7B73D006F771D /* Release */,
+				DCE3C95C1FE7C615006F771D /* Debug */,
+				DCE3C95D1FE7C615006F771D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCE3C9201FE7B73D006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestTests" */ = {
+		DCE3C95E1FE7C615006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCE3C9211FE7B73D006F771D /* Debug */,
-				DCE3C9221FE7B73D006F771D /* Release */,
+				DCE3C95F1FE7C615006F771D /* Debug */,
+				DCE3C9601FE7C615006F771D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCE3C9231FE7B73D006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestUITests" */ = {
+		DCE3C9611FE7C615006F771D /* Build configuration list for PBXNativeTarget "SwiftGitTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCE3C9241FE7B73D006F771D /* Debug */,
-				DCE3C9251FE7B73D006F771D /* Release */,
+				DCE3C9621FE7C615006F771D /* Debug */,
+				DCE3C9631FE7C615006F771D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DCE3C8ED1FE7B73C006F771D /* Project object */;
+	rootObject = DCE3C9271FE7C615006F771D /* Project object */;
 }
